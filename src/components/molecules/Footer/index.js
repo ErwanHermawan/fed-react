@@ -1,4 +1,4 @@
-import logo from '../../assets/img/logo/trafalgar-white.svg';
+import logo from 'assets/img/logo/trafalgar-white.svg';
 
 const Header = () => {
   return (
