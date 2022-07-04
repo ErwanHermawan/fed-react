@@ -1,14 +1,35 @@
-import logo from 'assets/img/logo/trafalgar.svg';
+import { useEffect, useState } from 'react';
+import { Logo } from 'components';
 
 const Header = () => {
+	// react hooks
+	const [showMenu, setShowMenu] = useState(false);
+
+	useEffect(() => {
+		handleToggleClassShow();
+		// eslint-disable-next-line 
+	}, [showMenu]);
+
+	const handleToggleClassShow = () => {
+		if (showMenu) {
+			document.body.classList.add('rm-scroll', 'show-nav');
+		} else {
+			document.body.classList.remove('rm-scroll', 'show-nav');
+		}
+	}
+
+	const ToggleMenu = () => {
+		setShowMenu(!showMenu);
+	};
+
   return (
     <div className="header">
       <div className="container">
         <div className="header__content">
           <a className="header__logo" href="index.html">
-            <img className="header__logo__img" src={logo} alt="trafalgar" />
+						<Logo	className="header__logo__img" name="trafalgar" />
           </a>
-          <button className="burger-menu js-mobile-menu" type="button">
+          <button className="burger-menu js-mobile-menu" type="button" onClick={ToggleMenu}>
             <span className="burger-menu__bar"></span>
           </button>
           <ul className="header__nav">

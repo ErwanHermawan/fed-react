@@ -13,8 +13,6 @@ function App() {
 				<SectionDescription data={sdDownloadData} reverse={true} arrowIcon={true} />
 				<Testimony data={testimonyData} />
 				<Blog data={blogData} />
-				{/* 
-				<Modal /> */}
 			</div>
 			<Footer />
 		</>

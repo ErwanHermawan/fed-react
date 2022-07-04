@@ -36,7 +36,7 @@ Layout: acticle
       right: -504px;
       width: 778px;
       height: 557px;
-      background: url(../../../img/bg/bg2.svg) no-repeat center/100%;
+      background: url(../../../assets/img/bg/bg2.svg) no-repeat center/100%;
       z-index: -1;
       @include large {
         width: 700px;
@@ -68,7 +68,7 @@ Layout: acticle
       z-index: -1;
       height: 115px;
       width: 130px;
-      background: url(../../../img/bg/element1.svg) no-repeat center/100%;
+      background: url(../../../assets/img/bg/element1.svg) no-repeat center/100%;
       @include large {
         width: 96px;
         height: 88px;

@@ -36,7 +36,7 @@
       z-index: -1;
       height: 115px;
       width: 130px;
-      background: url(../../../img/bg/element1.svg) no-repeat center/100%;
+      background: url(../../../assets/img/bg/element1.svg) no-repeat center/100%;
       @include large {
         width: 104px;
         width: 92px;
@@ -54,7 +54,7 @@
       z-index: 2;
       height: 115px;
       width: 130px;
-      background: url(../../../img/bg/element2.svg) no-repeat center/100%;
+      background: url(../../../assets/img/bg/element2.svg) no-repeat center/100%;
       @include large {
         width: 104px;
         width: 92px;
