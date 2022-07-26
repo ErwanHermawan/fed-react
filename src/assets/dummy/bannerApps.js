@@ -1,9 +1,9 @@
 import img1 from 'assets/img/dummy/virtual-healthcare.png';
 
-const bannerData = [
+const bannerApps = [
   {
     img: img1,
-    title: 'Virtual healthcare for you',
+    title: 'Apps | Virtual healthcare for you',
     desc: 'Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone',
     button: {
       to: 'consult',
@@ -12,4 +12,4 @@ const bannerData = [
   }
 ];
 
-export default bannerData;
+export default bannerApps;

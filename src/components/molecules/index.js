@@ -6,10 +6,10 @@ import TestimonyItem from './TestimonyItem';
 import BlogItem from './BlogItem';
 
 export {
-	HeroBannerItem,
-	OurServices,
-	OurServicesItem,
-	SectionDescription,
-	TestimonyItem,
-	BlogItem
+  HeroBannerItem,
+  OurServices,
+  OurServicesItem,
+  SectionDescription,
+  TestimonyItem,
+  BlogItem
 };
