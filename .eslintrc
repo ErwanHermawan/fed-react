@@ -4,14 +4,15 @@
     "prettier/prettier": [
       "error",
       {
-        "printWidth": 160,
+        "printWidth": 80,
         "singleQuote": true,
         "jsxSingleQuote": true,
         "tabWidth": 2,
         "semi": true,
         "arrowParens": "always",
         "bracketSpacing": true,
-        "trailingComma" : "none"
+        "jsxBracketSameLine": true,
+        "trailingComma": "none"
       }
     ]
   }

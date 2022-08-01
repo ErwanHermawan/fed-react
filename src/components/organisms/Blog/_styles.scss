@@ -30,7 +30,7 @@ Layout: acticle
   &__body {
     position: relative;
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       top: -72px;
       right: -504px;
@@ -61,7 +61,7 @@ Layout: acticle
       }
     }
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       bottom: -220px;
       right: -130px;

@@ -25,8 +25,7 @@ const SectionDescription = ({ data, reverse = false, arrowIcon = false }) => {
                 type='link'
                 variant='secondary'
                 to={data.button.to}
-                arrowIcon={arrowIcon}
-              >
+                arrowIcon={arrowIcon}>
                 {data.button.text}
               </Button>
             </div>

@@ -9,7 +9,7 @@ const Header = () => {
   useEffect(() => {
     handleToggleClassShow();
     // eslint-disable-next-line
-	}, [showMenu]);
+  }, [showMenu]);
 
   const handleToggleClassShow = () => {
     if (showMenu) {
@@ -33,16 +33,14 @@ const Header = () => {
           <button
             className='burger-menu js-mobile-menu'
             type='button'
-            onClick={ToggleMenu}
-          >
+            onClick={ToggleMenu}>
             <span className='burger-menu__bar'></span>
           </button>
           <ul className='header__nav'>
             <li className='header__nav__item'>
               <Link
                 className='header__nav__link header__nav__link--active'
-                to='/'
-              >
+                to='/'>
                 Home
               </Link>
             </li>
